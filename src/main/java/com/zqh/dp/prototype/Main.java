@@ -35,9 +35,10 @@ public class Main {
         clone.getList().add("3");
 
         System.out.println(clone.getA() == prototype.getA());
-        System.out.println(clone.getStr() == prototype.getStr());
+        System.out.println(clone.getStr() == prototype.getStr());//String 浅克隆，但是效果是深克隆
         clone.setStr("bbb");
         System.out.println(clone.getStr() == prototype.getStr());
+        System.out.println(clone.getList() == prototype.getList());
 
         System.out.println(prototype);
         System.out.println(clone);
