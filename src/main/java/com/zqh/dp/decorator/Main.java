@@ -1,15 +1,15 @@
-package com.zqh.dp.Decorator;
+package com.zqh.dp.decorator;
 
-import com.zqh.dp.Decorator.condiment.*;
-import com.zqh.dp.Decorator.tea.BlackTea;
-import com.zqh.dp.Decorator.tea.GreenTea;
+import com.zqh.dp.decorator.condiment.*;
+import com.zqh.dp.decorator.tea.BlackTea;
+import com.zqh.dp.decorator.tea.GreenTea;
 
 /**
  * author: zqh
  * email：zqhfsf@gmail.com
  * date: 2018/2/28 16:05
  * description:
- *  1、装饰者（Decorator）模式又叫包装模式，用组合的方式来拓展对象的功能，是继承关系的一个替代方案，可以动态的将责任附加在对象上，比继承更有弹性。
+ *  1、装饰者（decorator）模式又叫包装模式，用组合的方式来拓展对象的功能，是继承关系的一个替代方案，可以动态的将责任附加在对象上，比继承更有弹性。
 
     2、定义说明：装饰者模式动态地将责任附加到对象上，若要扩展功能，装饰着提供了比继承更富有弹性的替代方案。
 

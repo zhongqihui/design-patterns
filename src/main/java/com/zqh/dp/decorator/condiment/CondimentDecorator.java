@@ -1,6 +1,6 @@
-package com.zqh.dp.Decorator.condiment;
+package com.zqh.dp.decorator.condiment;
 
-import com.zqh.dp.Decorator.Tea;
+import com.zqh.dp.decorator.Tea;
 
 /**
  * author: zqh
