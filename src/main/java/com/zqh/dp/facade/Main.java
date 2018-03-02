@@ -5,6 +5,7 @@ package com.zqh.dp.facade;
  * email：zqhfsf@gmail.com
  * date: 2018/3/2 17:57
  * description: java 设计模式-门面模式
+ *
  *  门面模式是对象的结构模式，外部与一个子系统的通信必须通过一个统一的门面对象进行。门面模式提供一个高层次的接口，使得子系统更易于使用。
  *
  *  门面模式的优点：
