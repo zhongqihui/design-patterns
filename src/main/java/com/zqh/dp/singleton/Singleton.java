@@ -9,7 +9,7 @@ package com.zqh.dp.singleton;
  **/
 public class Singleton {
     //1.私有静态引用
-    private static Singleton singleton = new Singleton();
+    private static final Singleton singleton = new Singleton();
 
     //2.私有构造方法
     private Singleton() {}
